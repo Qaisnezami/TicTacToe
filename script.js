@@ -60,7 +60,8 @@ var vm = new Vue({
     },
     twoPlayers: function() {
       this.twoHumans = true;
-      this.showChoose = true;
+      this.showChoose = false;
+      this.setPlayerOne(2)
       this.start = false;
     },
     onePlayer: function() {
